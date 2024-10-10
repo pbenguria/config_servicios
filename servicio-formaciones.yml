@@ -1,5 +1,5 @@
 server: 
-  port: 9000 
+  port: 8020 
 springdoc:
   packagesToScan: com.curso.controller
   pathsToMatch: /**
