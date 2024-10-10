@@ -1,0 +1,5 @@
+server: 
+  port: 9000 
+springdoc:
+  packagesToScan: com.curso.controller
+  pathsToMatch: /**
