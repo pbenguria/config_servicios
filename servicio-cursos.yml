@@ -24,4 +24,5 @@ eureka:
       defaultZone: http://localhost:8761/eureka
   instance:
     prefer-ip-address: true 
-    random-value: ${random.int}
+    metadata-map:
+      random-value: ${instance.random-value}
