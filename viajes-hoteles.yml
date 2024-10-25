@@ -15,6 +15,9 @@ spring:
       path: /h2-console
 server: 
   port: 8010 
+springdoc:
+  packagesToScan: com.agencia.controller
+  pathsToMatch: /**
 eureka:
   client:
     serviceUrl:
