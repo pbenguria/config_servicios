@@ -20,13 +20,6 @@ spring:
             - Path=/reservas/**
           filters:
             - name: JwtAuthFilter
-    discovery:
-      client:
-        service-id: viajes-eureka
-        enabled: true
-      locator:
-        enabled: true
-        lower-case-service-id: true
 server:
   port: 9000
 eureka:
