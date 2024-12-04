@@ -18,13 +18,13 @@ spring:
           uri: lb://viajes-reservas
           predicates:
             - Path=/reservas/**
-    discovery:
-      client:
-        service-id: viajes-eureka
-        enabled: true
-      locator:
-        enabled: true
-        lower-case-service-id: true
+      discovery:
+        client:
+          service-id: viajes-eureka
+          enabled: true
+        locator:
+          enabled: true
+          lower-case-service-id: true
 server:
   port: 9000
 jwt:
