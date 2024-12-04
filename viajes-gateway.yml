@@ -19,7 +19,7 @@ spring:
           predicates:
             - Path=/reservas/**
           filters:
-            - name: JwtAuth
+            - name: AuthenticationFilter
     discovery:
       client:
         service-id: viajes-eureka
