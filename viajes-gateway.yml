@@ -29,3 +29,5 @@ spring:
         lower-case-service-id: true
 server:
   port: 9000
+jwt:
+  prefix: Bearer
