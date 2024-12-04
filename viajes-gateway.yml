@@ -31,3 +31,5 @@ server:
   port: 9000
 jwt:
   prefix: Bearer
+jwt:
+  secret: mi-clave-secreta-super-segura
