@@ -9,3 +9,8 @@ server:
 jwt:
   prefix: Bearer
   secret: mi-clave-secreta-super-segura
+logging:
+  level:
+    org.springframework.security: DEBUG
+    org.springframework.web: DEBUG
+    org.springframework.boot: DEBUG
