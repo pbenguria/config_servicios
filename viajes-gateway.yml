@@ -11,6 +11,6 @@ jwt:
   secret: mi-clave-secreta-super-segura
 logging:
   level:
-    org.springframework.security: DEBUG
-    org.springframework.web: DEBUG
-    org.springframework.boot: DEBUG
+    org.springframework.security: TRACE
+    org.springframework.web: TRACE
+    org.springframework.boot: TRACE
