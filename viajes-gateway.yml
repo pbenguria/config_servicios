@@ -18,6 +18,8 @@ spring:
           uri: lb://viajes-reservas
           predicates:
             - Path=/reservas/**
+          filters:
+            - name: AuthenticationFilter
       discovery:
         client:
           service-id: viajes-eureka
