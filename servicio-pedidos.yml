@@ -22,5 +22,5 @@ eureka:
   instance:
     prefer-ip-address: true
     # Forzamos a que el hostname sea directamente la IP
-    hostname: 192.168.1.14 
+    hostname: localhost 
     instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
