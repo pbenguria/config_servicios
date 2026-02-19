@@ -16,4 +16,7 @@ eureka:
     instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
     
 configuration:
-  text: Configuración Entorno por Defecto
+  text: Configuración Entorno Producción
+  author:
+    name: Paul
+    email: paul@mail.com
