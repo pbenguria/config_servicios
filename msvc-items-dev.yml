@@ -18,5 +18,5 @@ eureka:
 configuration:
   text: Configuración Entorno Desarrollo
   author:
-    name: John
+    name: PruebaJohn
     email: john@mail.com
