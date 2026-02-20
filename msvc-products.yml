@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:testdbAAAA
+    url: jdbc:h2:mem:testdb
     driverClassName: org.h2.Driver
     username: sa
     password: password
@@ -22,4 +22,4 @@ eureka:
   instance:
     prefer-ip-address: true
     hostname: localhost
-    instance-id: ${spring.application.name}:${random.value}
+    instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
